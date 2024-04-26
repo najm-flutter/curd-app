@@ -1,4 +1,4 @@
-import 'package:block_test/bloc/bloc/name_change_bloc.dart';
+import 'package:block_test/bloc/bloc/internet_bloc.dart';
 import 'package:block_test/layear/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: BlocProvider(
-        create: (context) => NameChangeBloc(),
+        create: (context) => InternetBloc(),
         child: const Home(),
       ),
     );
