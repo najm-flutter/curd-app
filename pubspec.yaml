@@ -41,6 +41,12 @@ dependencies:
   flutter_localization: ^0.2.0
   flutter_localizations:
     sdk: flutter
+  connectivity_plus: ^6.0.3
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  shared_preferences: ^2.2.3
+  http: ^1.2.0
+  get_it: ^7.6.7
 
 dev_dependencies:
   flutter_test:
